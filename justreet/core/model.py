@@ -7,6 +7,11 @@ class YOLOv5(ObjectDetector):
         print("train2")
 
 
+class YOLOv7(ObjectDetector):
+    def train(self):
+        print("train2")
+
+
 class ResNet(SceneParser):
     def train(self):
         print("train2")

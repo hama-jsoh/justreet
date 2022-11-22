@@ -9,5 +9,5 @@ class Justreet(metaclass=ABCMeta):
         self.use_yolov5.train()
 
     @abstractmethod
-    def display():
+    def display(self):
         pass
